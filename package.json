@@ -9,13 +9,39 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "axios": "^1.6.7",
     "expo": "~50.0.5",
     "expo-status-bar": "~1.11.1",
+    "prettier": "^2.8.8",
     "react": "18.2.0",
-    "react-native": "0.73.2"
+    "react-native": "0.73.2",
+    "react-native-table-component": "^1.2.2",
+    "react-native-vector-icons": "^10.0.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@babel/eslint-parser": "^7.5.4",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-config-standard-jsx": "^11.0.0",
+    "eslint-config-standard-react": "^13.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2"
   },
-  "private": true
+  "private": true,
+  "eslintConfig": {
+    "parser": "@babel/eslint-parser",
+    "extends": [
+      "standard",
+      "standard-jsx",
+      "standard-react",
+      "plugin:react/jsx-runtime"
+    ],
+    "rules": {
+      "react/prop-types": "off"
+    }
+  }
 }
