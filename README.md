@@ -2,6 +2,12 @@
 
 ## Run Project
 
+Clone the project:
+
+```bash
+git clone https://github.com/lamula21/react-native-google-sheet.git
+```
+
 Install dependencies:
 
 ```bash
