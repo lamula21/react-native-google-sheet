@@ -20,6 +20,12 @@ Run Project:
 npx expo start
 ```
 
+Google Sheet url:
+
+```bash
+https://docs.google.com/spreadsheets/d/1v6E0oJKXCSde9sxFMviCkUHIAnmxM3n8XvqG5HV0gjw/edit#gid=0
+```
+
 ## Features
 
 - [x] Write columns into the Google Sheet
